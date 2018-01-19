@@ -1,0 +1,26 @@
+{
+    "context": "server",
+    "identifier": "MysticalFists.AIST2.Cheats",
+    "display_name": "MysticalFists AI Skirmish Titans Cheats",
+    "description": "This mod adds Quick Build, Infinite Resources and High Health.",
+    "author": "MysticalFists",
+    "version": "1.0",
+    "build": "89755",
+    "date": "2015/12/26",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/rel-mysticalfists-titans-cheats-sp-mp.71126/",
+    "icon": "https://github.com/MysticalFists/PAGWC/blob/master/ui/mods/MysticalFistsTech/MysticalFists.png?raw=true",
+    "category": [
+        "in-game",
+        "ai-skirmish",
+		"cheat"
+    ],
+    "scenes": {
+		"live_game": [
+			"coui://ui/main/shared/js/build.js",
+			"coui://pa/units/unit_list.json"
+		]
+	},
+    "priority": 100,
+    "enabled": true
+}
